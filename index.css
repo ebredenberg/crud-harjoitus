@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.card {
+  width: 400px;
+  height: 150px;
+  margin: 0 auto 25px auto;
+  border-radius: 10px;
+  background-color: #fafafa;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 15px;
+}
+
+.right{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.edit {
+  width: 20px;
+  height: 25px;
+  position: absolute;
+  right: 35px;
+  bottom: 12px;
+}
+
+.delete {
+  width: 20px;
+  height: 25px;
+  position: absolute;
+  right: 8px;
+  bottom: 12px;
+
+}
+
+.card-add {
+  width: 400px;
+  margin: 0 auto 25px auto;
+  padding: 15px 15px 5px 15px;
+  border-radius: 10px;
+  background-color: #fafafa;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
